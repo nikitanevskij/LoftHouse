@@ -1,0 +1,21 @@
+.info {
+  position: relative;
+  font-size: 18px;
+  padding-left: 35px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 21px;
+    height: 21px;
+  }
+
+  &--point::before {
+    background-image: url("../img/header/point.svg");
+  }
+  &--tel::before {
+    background-image: url("../img/header/phone-call.svg");
+  }
+}
