@@ -26,3 +26,10 @@ a {
 .text-right {
   text-align: right;
 }
+
+.title-2 {
+  color: $accent;
+  font-family: $font-accent;
+  font-size: 36px;
+  font-weight: 700;
+}
