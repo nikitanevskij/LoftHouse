@@ -10,6 +10,7 @@
     top: 0;
     width: 21px;
     height: 21px;
+    background-position: center;
   }
 
   &--point::before {
@@ -17,5 +18,10 @@
   }
   &--tel::before {
     background-image: url("../img/header/phone-call.svg");
+  }
+
+  @include mediaTablet {
+    font-size: 14px;
+    padding-left: 27px;
   }
 }
